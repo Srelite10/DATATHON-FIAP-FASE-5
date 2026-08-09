@@ -15,6 +15,62 @@ uma única ferramenta de apoio à decisão.
 > determinísticas ("este aluno ficará defasado") ou causais ("o programa
 > causou").
 
+# 🎓 Datathon FIAP — Passos Mágicos
+## Radar Preventivo de Risco Educacional
+
+Solução desenvolvida no **Datathon da Pós Tech FIAP em Data Analytics** para a
+**Associação Passos Mágicos**, combinando análise educacional longitudinal,
+Machine Learning e um produto analítico em Streamlit.
+
+O objetivo é apoiar a transição de um acompanhamento apenas **reativo** para uma
+abordagem também **preventiva**, identificando estudantes que ainda não apresentam
+defasagem, mas concentram sinais associados a maior prioridade futura.
+
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](COLOCAR_URL_DO_STREAMLIT)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](#)
+[![Tests](https://img.shields.io/badge/tests-33%20passed-success)](#)
+[![FIAP](https://img.shields.io/badge/FIAP-Datathon-E91C5D)](#)
+
+---
+
+## 🔗 Acesso rápido
+
+| Entregável | Link |
+|---|---|
+| 🚀 Aplicação Streamlit | **[Abrir Radar Preventivo](COLOCAR_URL_DO_STREAMLIT)** |
+| 📊 Apresentação executiva | [PDF](docs/Datathon_PassosMagicos_Apresentacao_Final.pdf) |
+| 📓 EDA e auditoria | [Notebook 01](notebooks/01_auditoria_eda_passos_magicos.ipynb) |
+| 🤖 Modelo preditivo | [Notebook 02](notebooks/02_modelo_risco_defasagem.ipynb) |
+
+---
+
+## 📌 Resultados em 30 segundos
+
+| Indicador | Resultado |
+|---|---:|
+| Estudantes analisados em 2024 | **1.156** |
+| Elegíveis ao modelo | **1.054** |
+| Risco oculto identificado | **118 estudantes** |
+| Potenciais pontos cegos | **37 estudantes** |
+| ROC-AUC no teste temporal | **0,7649** |
+| PR-AUC no teste temporal | **0,8321** |
+
+### Principal insight
+
+> Entre os **518 estudantes sem defasagem em 2024**, **118 (22,78%)**
+> apresentaram prioridade prospectiva Alta ou Muito alta.
+
+Esses estudantes formam o grupo de **Risco Oculto**: casos que poderiam passar
+despercebidos em um acompanhamento baseado apenas na situação educacional atual.
+
+---
+
+
+
+
+
+
+
 ## Problema de negócio
 
 A Associação acompanha estudantes por indicadores educacionais (IDA, IEG, IAA,
