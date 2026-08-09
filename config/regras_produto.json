@@ -1,0 +1,62 @@
+{
+    "features_modelo": [
+        "FASE_NUM",
+        "TEMPO_PROGRAMA",
+        "IDA",
+        "IEG",
+        "IAA_MODELO",
+        "IPS",
+        "IPV"
+    ],
+    "fases_elegiveis": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+    ],
+    "fases_nao_elegiveis": [
+        8,
+        9
+    ],
+    "prioridade": {
+        "Muito alta": "percentil global >= 90 OU percentil da fase >= 90",
+        "Alta": "percentil global >= 75 OU percentil da fase >= 75",
+        "Moderada": "percentil global >= 50 OU percentil da fase >= 50",
+        "Reduzida": "demais estudantes"
+    },
+    "radar_preventivo": {
+        "Crítico persistente": "DEFASAGEM_ANALISE < 0 e prioridade Alta/Muito alta",
+        "Risco oculto": "DEFASAGEM_ANALISE >= 0 e prioridade Alta/Muito alta",
+        "Atenção atual": "DEFASAGEM_ANALISE < 0 e prioridade Moderada/Reduzida",
+        "Estável / menor prioridade": "DEFASAGEM_ANALISE >= 0 e prioridade Moderada/Reduzida"
+    },
+    "ponto_cego": "Risco oculto e PEDRA_2024 em Ametista ou Topázio",
+    "validacoes_esperadas": {
+        "populacao_total": 1156,
+        "elegiveis": 1054,
+        "nao_elegiveis": 102,
+        "risco_oculto": 118,
+        "ponto_cego": 37,
+        "critico_persistente": 207,
+        "atencao_atual": 329,
+        "estavel_menor_prioridade": 400
+    },
+    "restricoes": [
+        "Não retreinar o modelo no Streamlit",
+        "IPP não entra no modelo",
+        "INDE não entra no modelo",
+        "Pedra não entra no modelo",
+        "DEFASAGEM_ANALISE não entra no modelo",
+        "RA não entra no modelo",
+        "Fases 8 e 9 não recebem previsão",
+        "Threshold 0.55 não é regra universal",
+        "Probabilidade é a saída principal",
+        "Prioridade é gerencial e não diagnóstico",
+        "Não existem desfechos reais de 2025",
+        "Não realizar afirmações causais"
+    ]
+}

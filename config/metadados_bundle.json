@@ -1,0 +1,40 @@
+{
+    "tipo_objeto": "<class 'dict'>",
+    "chaves": [
+        "pipeline",
+        "features",
+        "fases_elegiveis",
+        "ano_features_inferencia",
+        "ano_alvo_inferencia",
+        "definicao_alvo",
+        "populacao_modelo",
+        "threshold_desenvolvimento",
+        "saida_principal",
+        "observacao_threshold",
+        "n_observacoes_treinamento",
+        "n_estudantes_unicos"
+    ],
+    "features": [
+        "FASE_NUM",
+        "TEMPO_PROGRAMA",
+        "IDA",
+        "IEG",
+        "IAA_MODELO",
+        "IPS",
+        "IPV"
+    ],
+    "fases_elegiveis": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+    ],
+    "ano_alvo_inferencia": 2025,
+    "threshold_desenvolvimento": 0.5499999999999998,
+    "n_observacoes_treinamento": 1306,
+    "n_estudantes_unicos": 855
+}

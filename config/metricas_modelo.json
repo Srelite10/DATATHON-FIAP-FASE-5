@@ -1,0 +1,49 @@
+{
+    "modelo": "Regressão Logística",
+    "target": "RISCO_FUTURO = 1 se DEFASAGEM_ANALISE do ano seguinte < 0",
+    "protocolo": {
+        "desenvolvimento": "2022 -> 2023",
+        "teste_temporal": "2023 -> 2024",
+        "inferencia": "2024 -> 2025"
+    },
+    "teste_temporal_threshold_050": {
+        "accuracy": 0.6667,
+        "precision": 0.783,
+        "recall": 0.5724,
+        "f1": 0.6614,
+        "roc_auc": 0.7649,
+        "pr_auc": 0.8321
+    },
+    "threshold_desenvolvimento": 0.55,
+    "teste_threshold_055": {
+        "accuracy": 0.6745,
+        "precision": 0.8605,
+        "recall": 0.5103,
+        "f1": 0.6407
+    },
+    "calibracao": {
+        "desenvolvimento_oof": {
+            "prevalencia": 0.61,
+            "probabilidade_media": 0.6098,
+            "brier_score": 0.2011
+        },
+        "teste_temporal": {
+            "prevalencia": 0.5686,
+            "probabilidade_media": 0.4597,
+            "brier_score": 0.206
+        }
+    },
+    "treinamento_final": {
+        "observacoes_aluno_ano": 1306,
+        "estudantes_unicos": 855
+    },
+    "coeficientes_desenvolvimento": {
+        "IPV": -0.7339,
+        "FASE_NUM": -0.604,
+        "IPS": 0.1526,
+        "IDA": -0.1275,
+        "IEG": -0.1222,
+        "TEMPO_PROGRAMA": 0.047,
+        "IAA_MODELO": 0.0112
+    }
+}

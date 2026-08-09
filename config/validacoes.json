@@ -1,0 +1,16 @@
+{
+    "base_streamlit_linhas": 1054,
+    "base_streamlit_ras_unicos": 1054,
+    "base_streamlit_duplicidades": 0,
+    "risco_oculto": 118,
+    "ponto_cego": 37,
+    "base_produto_linhas": 1156,
+    "base_produto_ras_unicos": 1156,
+    "base_produto_duplicidades": 0,
+    "trajetoria_linhas": 434,
+    "trajetoria_ras_unicos": 434,
+    "status_modelo": {
+        "Elegível": 1054,
+        "Não elegível": 102
+    }
+}

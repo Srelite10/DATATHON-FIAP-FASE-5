@@ -1,0 +1,19 @@
+{
+    "painel_completo_2022_2024": 434,
+    "saldo_2022_2024": {
+        "avanco_pct": 29.72,
+        "manutencao_pct": 44.24,
+        "recuo_pct": 26.04
+    },
+    "agata_ametista": {
+        "n": 311,
+        "avanco_pct": 35.69,
+        "manutencao_pct": 38.59,
+        "recuo_pct": 25.72,
+        "delta_medio": 0.0675,
+        "delta_mediano": 0.0,
+        "wilcoxon_estatistica": 8328.0,
+        "wilcoxon_p_valor": 0.22748715930316143
+    },
+    "conclusao": "Efetividade heterogênea: existem sinais positivos em alguns grupos, mas não evidência estatística suficiente de melhora ordinal sistemática de toda a população."
+}

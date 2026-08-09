@@ -1,0 +1,40 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Testes / cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente e segredos
+.env
+
+# Logs e caches diversos
+logs/
+*.log
+.cache/
+*.tmp
+
+# NÃO ignorar dados, modelo e configs necessários para o app/deploy:
+# data/*.csv, models/*.joblib, config/*.json permanecem versionados.

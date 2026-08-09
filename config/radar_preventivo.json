@@ -1,0 +1,32 @@
+{
+    "risco_oculto": 118,
+    "ponto_cego": 37,
+    "ponto_cego_pct": 31.36,
+    "dna_diferencas_z": {
+        "IPV": -1.535,
+        "IEG": -1.367,
+        "IDA": -1.266,
+        "IAA_MODELO": -0.151,
+        "TEMPO_PROGRAMA": -0.144,
+        "IPS": 0.007
+    },
+    "triangulacao": {
+        "IPP": {
+            "media_risco_oculto": 6.907,
+            "media_estavel": 7.914,
+            "diferenca_z": -1.104
+        },
+        "INDE_2024": {
+            "media_risco_oculto": 6.607,
+            "media_estavel": 8.112,
+            "diferenca_z": -1.54
+        }
+    },
+    "pedra_sem_defasagem_pct_risco_oculto": {
+        "Quartzo": 83.87,
+        "Ágata": 78.57,
+        "Ametista": 21.05,
+        "Topázio": 0.41
+    },
+    "storytelling": "O risco oculto se concentra principalmente em desempenho acadêmico, engajamento e desenvolvimento associado ao ponto de virada."
+}

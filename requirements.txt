@@ -1,0 +1,11 @@
+# Versões alinhadas a docs/ambiente_modelo.txt (scikit-learn e joblib idênticos ao
+# ambiente de treinamento, para evitar problemas de unpickling do bundle .joblib).
+# numpy/pandas usam o patch mais próximo com wheel disponível para o Python alvo.
+streamlit==1.61.1
+pandas==2.2.3
+numpy==2.2.6
+scikit-learn==1.6.1
+joblib==1.5.3
+scipy==1.18.0
+plotly==6.9.0
+pytest==9.1.1
