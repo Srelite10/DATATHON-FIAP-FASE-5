@@ -28,10 +28,9 @@ prioridade futura.
 | 🖥️ **Apresentação — PowerPoint** | [Baixar PPTX](docs/Datathon_PassosMagicos_Apresentacaoppt.pptx) |
 | 📓 **Notebook 01 — Auditoria e EDA** | [Abrir notebook](notebooks/01_auditoria_eda_passos_magicos.ipynb) |
 | 🤖 **Notebook 02 — Modelo e análises avançadas** | [Abrir notebook](notebooks/02_modelo_risco_defasagem.ipynb) |
-| 🎥 **Vídeo de apresentação** | **[Assistir no YouTube](COLOCAR_URL_YOUTUBE_AQUI)** |
 
-> 🎥 **Vídeo:** após a publicação no YouTube, substituir
-> `COLOCAR_URL_YOUTUBE_AQUI` pelo link final da apresentação.
+
+
 
 ---
 
